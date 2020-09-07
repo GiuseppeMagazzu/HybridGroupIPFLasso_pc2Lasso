@@ -24,4 +24,8 @@ pclasso
 ```
 ### Running the code
 File worker_function.py must be in the same directory of Hybrid Group Lasso - IPF Lasso.ipynb.
-In Hybrid Group Lasso - IPF Lasso.ipynb and pc2Lasso, the data to used have to be loaded where indicated, as indicated. 
+In Hybrid Group Lasso - IPF Lasso.ipynb and pc2Lasso, the data to use have to be loaded where indicated, as indicated. 
+
+File neural_network.ipynb contains the entire training pipeline of randomly-generated neural networks for regression, while final_neural_regressoripynb contains the code for the automatic selection, training and testing of a neural net defined by the best parameter combination for a neural-network regression given a file containing the results from previous simulations. The data to use have to be loaded where indicated in the files, as indicated. 
+
+File Autoencoder.ipynb provides the code for the entire training pipeline of randomly-generated autoencoders, while final_autoencoder.ipynb allows the user to adopt warm start and test_set_evaluation.ipynb contains the code to evaluate the goodness of a previously-trained model. The data to use have to be loaded where indicated in the files, as indicated. 
